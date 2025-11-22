@@ -10,7 +10,7 @@ import io
 import os
 import copy 
 
-# === 1. Definição da arquitetura (agora parametrizada) ===
+# === 1. Definição da arquitetura (agora parametrizada) ===  
 class CNN(nn.Module):
     def __init__(self, n_classes):
         super().__init__()
